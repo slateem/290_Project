@@ -1,0 +1,60 @@
+.navbar-style
+{
+    background-color: rgb(182, 182, 182);
+}
+.logo
+{
+   height: 80px;
+   padding: 2px 10px;
+}
+
+li{
+    display: inline;
+    
+}
+li a{
+    color:black;
+    font-weight: bold;
+}
+
+.carousel-slide{
+    height: 32px;
+}
+#aboutMePar{
+    border-style: solid;
+    border-color: black;
+}
+.carousel-control-prev{
+    background-color: black;
+    font-size: 24px;
+}
+.carousel-control-next{
+    background-color: black;
+    font-size: 24px;
+}
+
+#orderForm{
+    border-style: solid;
+    border-color: black;
+}
+#subscribeBox{
+    border-style: solid;
+    border-color: black;
+}
+
+#sortedProductsBox{
+    border-style: solid;
+    border-color: black;
+}
+
+#locationHeader{
+   text-align: center;
+}
+
+#hersheyPark{
+    text-align: center;
+ }
+
+ #scrollBar{
+     overflow: scroll;
+ }
