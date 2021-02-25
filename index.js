@@ -123,7 +123,7 @@ if (eventListener3){
     document.getElementById("submitLocation").addEventListener('click', function(event){
 
         var req = new XMLHttpRequest();
-        var webLink = "http://api.openweathermap.org/data/2.5/weather?q=17036,us&appid=28871c3494e577a7cdd77e20b45f27ac";
+        var webLink = "https://api.openweathermap.org/data/2.5/weather?q=17036,us&appid=28871c3494e577a7cdd77e20b45f27ac";
     
         req.open("GET", webLink, false);
         req.send(null);
