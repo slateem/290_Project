@@ -1,7 +1,4 @@
-.navbar-style
-{
-    background-color: rgb(182, 182, 182);
-}
+
 .logo
 {
    height: 80px;
@@ -15,6 +12,14 @@ li{
 li a{
     color:black;
     font-weight: bold;
+}
+
+.header{
+    border-bottom: 5px solid black;
+}
+
+.carousel{
+    border-bottom: 5px solid black;
 }
 
 .carousel-slide{
@@ -55,6 +60,33 @@ li a{
     text-align: center;
  }
 
- #scrollBar{
-     overflow: scroll;
- }
+ /*CSS For the carosel*/
+.carousel{
+    overflow: hidden;
+    position: relative;
+}
+
+/*keeps the images hidden*/
+.carousel .carousel__item {
+    display: none;
+}
+/*javascript will add this class, so that the image will be displayed*/
+.carousel .visibleIMG{
+    display: block;
+}
+
+/*sizes the images correctly for the screen*/
+.carousel .carousel__item img{
+    width: 100%;
+    height: 500px;
+}
+
+/*Positioning for the prev and next buttons*/
+.carousel .carousel__actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+
